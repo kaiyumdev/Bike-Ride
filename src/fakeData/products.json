@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "name": "Intercepter 650cc",
+        "img": "https://i.postimg.cc/rsm6jryT/Intercepter-650.jpg",
+        "price": "650"
+    },
+    {
+        "id": "2",
+        "name": "Bullet 350cc",
+        "img": "https://i.postimg.cc/fWBDdwWZ/Bullet-350.webp",
+        "price": "350"
+    },
+    {
+        "id": "3",
+        "name": "Bullet Tower Siker",
+        "img": "https://i.postimg.cc/kXLrNG0r/Bullet-Tower-Sikar.jpg",
+        "price": "350"
+    },
+    {
+        "id": "4",
+        "name": "Meteor Supermova",
+        "img": "https://i.postimg.cc/T27vwCQ3/Meteor-Supernova.jpg",
+        "price": "450"
+    },
+    {
+        "id": "5",
+        "name": "Cruiser 650cc",
+        "img": "https://i.postimg.cc/gJGbw7fn/Cruiser-650.jpg",
+        "price": "650"
+    },
+    {
+        "id": "6",
+        "name": "Twin-Cylinder 650",
+        "img": "https://i.postimg.cc/y8Kjzz9g/Twin-Cylinder-650.jpg",
+        "price": "650"
+    },
+    {
+        "id": "7",
+        "name": "Classic 150",
+        "img": "https://i.postimg.cc/GhtrJZ9D/Classic-150.jpg",
+        "price": "150"
+    },
+    {
+        "id": "8",
+        "name": "Classic 250",
+        "img": "https://i.postimg.cc/KzQStN2Q/Classic-250.jpg",
+        "price": "250"
+    },
+    {
+        "id": "9",
+        "name": "Classic 350",
+        "img": "https://i.postimg.cc/ZKQmfVyM/Classic-350.jpg",
+        "price": "350"
+    },
+    {
+        "id": "10",
+        "name": "Continantal 650",
+        "img": "https://i.postimg.cc/DwbTRLry/Continantal-650.jpg",
+        "price": "650"
+    },
+    {
+        "id": "11",
+        "name": "Sultan",
+        "img": "https://i.postimg.cc/fTVn0mgj/Sultan.jpg",
+        "price": "400"
+    },
+    {
+        "id": "12",
+        "name": "Classic 650",
+        "img": "https://i.postimg.cc/yNmz8KpM/Classic-650.jpg",
+        "price": "650"
+    }
+]
