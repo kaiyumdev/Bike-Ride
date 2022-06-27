@@ -12,21 +12,30 @@ const Cart = (props) => {
   }
   const handleAddToSelect = () => {
     let mainProduct = cart[Math.floor(Math.random() * cart.length)];
+    if(mainProduct===0){
+      mainProduct.style.display = 'block';
+    }
+    else {
+      mainProduct.style.display = 'none';
+    }
+    // mainProduct.innerHTML = `<span style="color:red;">This is random product</span>`;
     // return mainProduct;
     console.log(mainProduct);
-    console.log(cart);
-    console.log("button click");
+    // console.log(cart);
+    // console.log("button click");
   };
   return (
     <div className="cart-container">
       <div className="cart">
         <h1>Selected Bike</h1>
         <p>cart:{cart.length}</p>
-        <li>
-          <h3>Name:{name}</h3>
-        </li>
+        <h3>Name:{name}</h3>
+        {/* <p>MainProduct: {mainProduct}</p> */}
         {/* <p>MainProduct:{mainProduct}</p> */}
         <br />
+      </div>
+      <div className="random">
+        <h1>Random Product:{cart.mainProduct?.name}</h1>
       </div>
       <button onClick={() => handleAddToSelect()}>Choose one for me</button>
       {/* console.log(b); */}
