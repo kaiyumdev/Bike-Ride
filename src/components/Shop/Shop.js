@@ -28,6 +28,10 @@ const Shop = () => {
     setCart(rest);
 
   }
+  const handleRemoveAllItem = (selctedItem) => {
+    const item = cart.filter(singleProduct => singleProduct.id ==selctedItem.id);
+    setCart(item);
+  }
   return (
     <div className="title">
       <h1>Bike Riders</h1>
@@ -45,6 +49,7 @@ const Shop = () => {
           <Cart 
           cart={cart}
           handleRemoveFromCart={handleRemoveFromCart}
+          handleRemoveAllItem={handleRemoveAllItem}
           ></Cart>
         </div>
       </div>
