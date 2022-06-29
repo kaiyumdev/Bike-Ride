@@ -13,9 +13,21 @@ const Shop = () => {
   }, []);
   const handleAddToCart = (product) => {
     // console.log(product);
-    const newCart = [...cart, product];
-    setCart(newCart);
+    const exists = cart.find(singleProduct => singleProduct.id === product.id)
+    if(!exists) {
+      const newCart = [...cart, product];
+      setCart(newCart);
+    }
+    else{
+      alert('cart already added');
+    }
   };
+
+  const handleRemoveFromCart = (selctedItem) => {
+    const rest = cart.filter(singleProduct => singleProduct.id !==selctedItem.id);
+    setCart(rest);
+
+  }
   return (
     <div className="title">
       <h1>Bike Riders</h1>
@@ -30,7 +42,10 @@ const Shop = () => {
           ))}
         </div>
         <div className="cart-container">
-          <Cart cart={cart}></Cart>
+          <Cart 
+          cart={cart}
+          handleRemoveFromCart={handleRemoveFromCart}
+          ></Cart>
         </div>
       </div>
       <div className="text">
